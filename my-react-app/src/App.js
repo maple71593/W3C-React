@@ -1,9 +1,10 @@
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
-  );
-}
+import React from 'react'
+import Map from './map'
 
-export default App;
+export default function App() {
+  return (
+    <div>
+      <Map/>    
+    </div>
+  )
+}
